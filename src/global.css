@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    font-family: 'Poppins', sans-serif;
-}
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 body{
  background-color: #F7F7F7;
 }
 .head_subtitle {
-    @apply  text-2xl font-medium leading-[50px];
+    @apply  text-xl font-medium leading-[50px] text-center;
   }
   .head_text {
-    @apply text-[40px] font-semibold leading-[48px];
+    @apply text-3xl font-bold leading-[48px] text-center;
   }
