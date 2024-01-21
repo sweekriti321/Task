@@ -1,6 +1,6 @@
 <template>
-  <div @click="discoverBtn" class="border border-gray-300 rounded-md lg:w-[266px] lg:h-[232px] sm:w-[342px] sm:h-[24px] sm:rounded-2xl sm:border-[0px] sm:border-[8px,0px]
-">
+  <!-- <div @click="discoverBtn" class="border border-gray-300 rounded-md lg:w-[266px] lg:h-[232px] sm:w-[342px] sm:h-[24px] sm:rounded-2xl sm:border-[0px] sm:border-[8px,0px] -->
+<div @click="discoverBtn" class="border border-gray-300">
     <div class="p-4">
       <div class="mb-2 flex justify-between">
         <div class="text-xl font-semibold leading-6 text-left">
@@ -21,6 +21,7 @@
       </button>
     </div>
   </div>
+  <!-- </div> -->
 </template>
   
   <script>

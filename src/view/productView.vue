@@ -1,12 +1,14 @@
 <template>
     <div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-    <div v-for="(card,index) in cardItems" :key="index" class="fle flex-wrap border border-gray-300 rounded-md w-full md:w-[266px]">
+        <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"> -->
+         <div class="flex flex-wrap lg:space-x-4"> 
+    <div v-for="(card,index) in cardItems" :key="index" class=" rounded-md w-full md:w-[266px]">
         <Card :cardData="card" @productDetailDiscoverClick="showProductDetail(card.cardId)" :isClicked="card.cardId === expandProductDetail"  />
     </div>
 </div>
+<div>
     <ProductDetail v-if="expandProductDetail !== null" :productData="this.productItems[expandProductDetail]"/>
-   
+  </div>
 </div>
 </template>
 <script>

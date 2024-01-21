@@ -9,7 +9,7 @@ body{
  background-color: #F7F7F7;
 }
 .head_subtitle {
-    @apply  text-xl font-medium leading-[50px] text-center;
+    @apply  text-xl font-medium leading-[50px] text-center ;
   }
   .head_text {
     @apply text-3xl font-bold leading-[48px] text-center;

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div v-for="(item, index) in accordionItems" :key="index" class="w-[Fixed_(421px)] h-[Hug_(56px)] pl-0 pr-[0px,] pt-[0px,] pb-[24px,]  border-black;
-justify-space-between">
+    <div v-for="(item, index) in accordionItems" :key="index" class="w-[Fixed_(421px)] h-[Hug_(56px)] p-0 pb-[24px] lg:ml-40 lg:mr-10 justify-between"
+>
       <div
         @click="toggleAccordion(index)"
         class=" p-3 cursor-pointer flex items-center justify-between"
