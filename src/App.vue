@@ -1,26 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="w-[900px] h-[1128.45px] top-[153px] left-[256px] rounded-[0px,0px,180px,0px] flex justify-center "> 
+    <div class="lg:w-[486px] lg:h-[91.6px] lg:top-[153px] left-[621px] gap-[14px] bg-[#F7F7F7] md:shrink-0">
+      <page-view />
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import pageView from '@/view/pageView.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    pageView
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

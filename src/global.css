@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+ background-color: #F7F7F7;
+}
+.head_subtitle {
+    @apply  text-2xl font-medium leading-[50px];
+  }
+  .head_text {
+    @apply text-[40px] font-semibold leading-[48px];
+  }
