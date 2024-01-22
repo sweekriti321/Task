@@ -1,4 +1,7 @@
 # taskomnicom
+- Cards using Talwind CSS and Vuejs
+- Buttons in cards work as tabs and each buttons on click renders different content
+- The whole project is responsive 
 
 ## Project setup
 ```
