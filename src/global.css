@@ -14,3 +14,12 @@ body{
   .head_text {
     @apply text-3xl font-bold leading-[48px] text-center;
   }
+  .productDetailTitle{
+    @apply mt-4 max-w-[465px] sm:w-[80%] md:w-[70%] lg:w-[60%] xl:w-[50%] h-auto text-5xl font-semibold leading-tight tracking-normal text-left;
+  }
+  .productDetailContent{
+    @apply mt-4 max-w-[465px] sm:w-[80%] md:w-[70%] lg:w-[60%] xl:w-[50%] h-auto text-2xl font-normal leading-tight tracking-normal text-left;
+  }
+  .productDetailBtn{
+    @apply sm:text-center mt-4 lg:mt-10 w-full sm:w-[80%] md:w-[70%] lg:w-[60%] xl:w-[50%] h-[64px] lg:h-[68px] pl-11 pr-[4rem] py-3 sm:py-4 text-xl font-semibold leading-6 tracking-normal text-left rounded-[40px] border-[3px] border-black bg-[#F15A29]
+  }

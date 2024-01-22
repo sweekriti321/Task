@@ -5,16 +5,15 @@ User
 <!-- "> -->
 <div class="flex flex-wrap bg-[#FFE58C] lg:mt-8">
      <!-- <div class=" w-[465px] h-[318px] gap-48 p-4"> -->
-      <div class="p-4 mr-10 ml-8">
-      <div class="mt-4 w-[465px] h-[58px] text-5xl font-semibold leading-[58px] tracking-normal text-left">{{ productData.title }}</div>
-      <div class=" mt-4 w-[465px] h-[124px]  text-2xl font-normal leading-[31px] tracking-normal text-left sm:w-[283px] sm:h-28">{{ productData.content }}</div>
-      <div>
-        <button class="lg:mt-10 lg:w-[262px] lg:h-[64px] left-[-16.5px] gap-2 pl-11 pr-[44px] py-[20px] text-xl font-semibold leading-6 tracking-normal text-left rounded-[40px] border-[3px] border-black bg-[#F15A29] sm:w-[229px] sm:h-[64px]
-">
-       Discover Product
-        </button>
-      </div>
-    </div>
+      <div class="p-4 sm:mr-4 sm:ml-8 md:ml-12 lg:ml-16">
+  <div class="productDetailTitle">{{ productData.title }}</div>
+  <div class="productDetailContent">{{ productData.content }}</div>
+  <div>
+    <button class="productDetailBtn">
+      Discover Product
+    </button>
+  </div>
+</div>
      <!-- </div> -->
      <div>
       <Accordion />
