@@ -1,9 +1,9 @@
 <template>
   <div class="m-4">
   <h1 class="head_text my-8">
-  Section Title
+  Gifts
   <br />
-  <div class="head_subtitle text-center">Section Subtitle</div>
+  <div class="head_subtitle text-center">You can find diferent types of gifts</div>
   </h1>
   <ProductView />
   </div>

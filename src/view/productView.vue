@@ -33,48 +33,47 @@
   cardItems: [
   {
   cardId: 1,
-  title: "Card Title",
+  title: "Birthday Gifts",
   src: "assets/firstcard.png",
-  content: "Lorem ipsum dolor sit amet, consect ksjflksdjflkgjhjkhgfhjkhgfdkasdjflsldfj sadlfjsalkdfjklasdfjlkasdf dipiscing elit.",
+  content: "Here you can find different types of birthday gifts to gift your loved ones. Celebrate with happiness.",
   },
   {
   cardId: 2,
-  title: "Card Title for card 2",
+  title: "Anniversary Gifts",
   src: "assets/secondcard.png",
   content:
-  "Lorem ipsum dolor sit amet, consect ksjflksdjflkgjhjkhgfhjkhgfdkasdjflsldfj sadlfjsalkdfjklasdfjlkasdf dipiscing elit.",
-  },
+  "Here you can find different types of anniversary gifts to gift your loved ones. Celebrate with happiness."  },
   {
   cardId: 3,
-  title: "Card Title for 3rd card",
+  title: "Graduation Gifts",
   src: "assets/thirdcard.png",
   content:
-  "Lorem ipsum dolor sit amet, consect ksjflksdjflkgjhjkhgfhjkhgfdkasdjflsldfj sadlfjsalkdfjklasdfjlkasdf dipiscing elit.",
+  "Here you can find different types of graduation gifts to gift your loved ones. Celebrate with happiness.",
   },
   {
   cardId: 4,
-  title: "Card Title of 4th card",
+  title: "Gifts for Married couple",
   src: "assets/fourthcard.png",
-  content: "Lorem ipsum dolor sit amet, consect ksjflksdjflkgjhjkhgfhjkhgfdkasdjflsldfj sadlfjsalkdfjklasdfjlkasdf dipiscing elit.",
+  content: "Here you can find different types of gifts to gift your married couple friends and family. Celebrate with happiness.",
   },
   ],
   productItems: {
   1: {
-  title: "Product Title",
+  title: "Different types of Birthday Gift",
   content:
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque risus id ante maximus blandit.",
+  "Here you can find different types of birthday gifts to gift your loved ones.",
   },
   2: {
-  title: "Product Title 2",
-  content: "This is product 2.",
+  title: "Different types of Anniversary Gift",
+  content: "Here you can find different types of anniversary gifts to gift your loved ones.",
   },
   3: {
-  title: "Product Title 3",
-  content: "This is product 3.",
+  title: "Gifts for graduation",
+  content: "Here you can find different types of graduation gifts to gift your loved ones.",
   },
   4: {
-  title: "Product Title 4",
-  content: "This is product 4.",
+  title: "Gifts for Married Couple",
+  content: "Here you can find different types of birthday gifts to gift your loved ones.",
   },
   },
   };
